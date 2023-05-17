@@ -5,4 +5,30 @@
         </title>
         <link rel="icon" type="images/x-icon" href="images/favicon.ico">
     </head>
+    <body>
+        <form>
+            <table>
+        <tr><td>Name</td><td><input type="text" name="txt" placeholder="Enter Your Name"></td></tr>
+        <tr><td>Address:</td><td><textarea rows="6" cols="15"></textarea></td></tr>
+        <tr><td>Email Id</td><td><input type="email" name="emailid" placeholder="Enter Your Email"></td></tr> 
+        <tr><td>Date Of Birth:</td><td><input type="date" name="dob" ></td></tr>
+        <tr><td>Gender:</td>
+        <td><input type="radio" name="gen" value="Male">Male
+        <input type="radio" name="gen" value="Female">Female</td></tr>
+        <tr><td>Languages Known:</td>
+        <td><input type="checkbox" name="lang1" value="Malayalam">Malayalam
+        <input type="checkbox" name="lang2" value="English">English
+        <input type="checkbox" name="lang3" value="Hindi">Hindi</td></tr>
+        <tr><td>Qualifications:</td>
+            <td><select name="quali" id="">
+            <option>Select</option>
+            <option>Degree</option>
+            <option >B.Tech</option>
+            <option >PG</option>
+        </select></td></tr>
+        <tr><td>Profile:<input type="file" name="file"></td></tr>
+        <tr><td><input type="submit" name="btsbmt" value="Register"></td></tr>
+        </table>    
+        </form>
+    </body>
 </html>
